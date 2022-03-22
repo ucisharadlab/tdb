@@ -1,0 +1,7 @@
+fid,name,cfid,property
+1,wifi_to_region_loc,1,1
+2,wemo_to_energy,2,3
+3,hvac_to_energy,3,3
+4,camera_to_room_location,4,1
+5,gps_to_building_location,5,1
+6,ble_to_contact,6,4

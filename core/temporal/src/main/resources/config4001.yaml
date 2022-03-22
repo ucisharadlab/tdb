@@ -1,0 +1,16 @@
+serviceConfig:
+  scheme: http://
+  hostName: 127.0.0.1
+  port: 4001
+  path: /api/
+  swaggerURL: swagger-ui-with-password/
+
+databaseConfig:
+  dbUsername: sdb
+  dbPassword: sdb
+  dbHostname: localhost
+  dbPort: 5432
+  dbDriver: org.postgresql.Driver
+  dbName: test
+  dbSettings: '?autoReconnect=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=PST&useSSL=false'
+  dbConnections: 5
